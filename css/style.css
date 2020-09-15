@@ -140,6 +140,39 @@ body {
   left: 24px;
 }
 
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs__list {
+}
+
+.breadcrumbs__list-item {
+  position: relative;
+  display: inline-block;
+  padding-right: 16px;
+  margin-right: 10px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #c4c4c4;
+}
+
+.breadcrumbs__list-item::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 5px;
+  width: 6px;
+  height: 11px;
+  background-image: url(../images/svg/breadcrumb-arrow.svg);
+}
+
+.breadcrumbs__list-item:last-child::after {
+  display: none;
+}
+
 .header__bottom {
   padding-top: 21px;
 }
