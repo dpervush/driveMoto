@@ -377,7 +377,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #2f3035;
 }
 
 .sale-item__footer {
@@ -503,7 +502,6 @@ body {
   font-weight: 700;
   font-size: 23px;
   line-height: 28px;
-  color: #2f3035;
   transition: all 0.3s;
 }
 
@@ -958,4 +956,122 @@ body {
 
 .footer__bottom-link + .footer__bottom-link {
   margin-left: 80px;
+}
+
+.catalog {
+  margin-bottom: 100px;
+}
+
+.catalog__title {
+  margin-bottom: 26px;
+
+  font-family: "SFProDisplay-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.catalog__filter-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog__filter-items button {
+  padding: 5px 22px;
+
+  background: #f0f0f4;
+  border: none;
+  border-radius: 3px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(47, 48, 53, 0.7);
+}
+
+.catalog__filter-items button + button {
+  margin-left: 8px;
+}
+
+.catalog__filter-btn {
+  display: flex;
+  align-items: center;
+}
+
+.catalog__filter-sort {
+  margin-right: 34px;
+}
+
+.catalog__filter-btn button {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.catalog__filter-btn button + button {
+  margin-left: 10px;
+}
+
+.catalog__filter-btn-grid {
+}
+
+.catalog__filter-btn-line {
+}
+
+.catalog__inner {
+  display: flex;
+  margin-top: 50px;
+}
+
+.catalog__inner-aside {
+  min-width: 291px;
+  margin-right: 10px;
+}
+
+.catalog__inner-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog__inner-list .product-item__wrapper {
+  margin-bottom: 31px;
+}
+
+.pagination {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-list__item {
+  margin: 0 4px;
+  padding: 7px 13px;
+  border: 2px solid transparent;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+
+.pagination-list__item.pagination-list__item--active {
+  border: 2px solid #1c62cd;
+  color: #1c62cd;
+}
+
+.pagination-list__item a {
+  display: block;
 }
